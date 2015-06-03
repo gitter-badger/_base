@@ -1,0 +1,20 @@
+/* -- modules/_link.css -- */
+
+
+a {
+    transition: color .3s;
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+    a:visited {
+        color: color(var(--link-color) tint(15%));
+    }
+
+    a:hover {
+        color: color(var(--link-color) shade(30%));
+    }
+
+    a:focus {
+        outline: none;
+    }

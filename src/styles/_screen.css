@@ -1,0 +1,12 @@
+/* -- _screen.css -- */
+
+
+/* Demo */
+
+body {
+    background: var(--lt-gray);
+}
+
+.container {
+    background: var(--white);
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+    <!-- Read this: www.opensearch.org/Specifications/OpenSearch/1.1 -->
+
+    <ShortName>@@name</ShortName>
+    <Description>@@description</Description>
+    <Attribution>Copyright (c) @@name</Attribution>
+    <Language>*</Language>
+    <InputEncoding>UTF-8</InputEncoding>
+    <OutputEncoding>UTF-8</OutputEncoding>
+    <Image width="16" height="16" type="image/x-icon">/favicon.ico</Image>
+    <Url type="text/html" template="http://google.com/search?q={searchTerms}+site:@@url"></Url>
+</OpenSearchDescription>

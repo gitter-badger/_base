@@ -1,0 +1,14 @@
+## PROJECT
+dest
+*.zip
+
+## NODE
+logs
+*.log
+pids
+*.pid
+*.seed
+node_modules
+
+## BOWER
+bower_components
