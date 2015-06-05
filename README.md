@@ -7,11 +7,12 @@
 
 > Minimal front-end framework/boilerplate and build process to quickly get projects going.
 
-[Demo][home-url]
+[Test][home-url]
 
 ## Requirements
 
-Install [node.js][nodejs-url], [gulp][gulp-url] task runner and [bower][bower-url] package manager globally.
+- Install [node.js][nodejs-url]. (see [nvm][nvm-url])
+- Install [gulp][gulp-url] task runner and [bower][bower-url] package manager globally.
 
 ```sh
 npm install -g gulp bower
@@ -84,6 +85,7 @@ npm test
 [codacy-url]: https://www.codacy.com/app/bymathias/_base
 
 [nodejs-url]: https://nodejs.org
+[nvm-url]: https://github.com/creationix/nvm
 [gulp-url]: http://gulpjs.com
 [bower-url]: http://bower.io
 [mocha-url]: http://mochajs.org
