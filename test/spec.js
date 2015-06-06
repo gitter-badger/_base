@@ -7,7 +7,7 @@
 
     var app = appBase;
 
-    describe('Spec Tests', function() {
+    describe('Tests', function() {
 
         it('should be an object', function() {
             expect(app).to.be.an('object');

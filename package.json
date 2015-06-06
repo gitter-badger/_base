@@ -41,7 +41,6 @@
     "gulp-replace-task": "^0.2.1",
     "gulp-uglify": "^1.2.0",
     "gulp-util": "^3.0.5",
-    "mocha": "^2.2.5",
     "mocha-phantomjs": "^3.5.3",
     "phantomjs": "^1.9.17",
     "run-sequence": "^1.1.0",
@@ -50,9 +49,8 @@
   "scripts": {
     "jscs": "node_modules/gulp-jscs/node_modules/jscs/bin/jscs *.js test/*.js",
     "hint": "node_modules/gulp-jshint/node_modules/jshint/bin/jshint *.js test/*.js",
-    "test": "npm run jscs; npm run hint; mocha test/test.js; gulp; mocha-phantomjs test/runner.html",
-    "bump": "npm version -m 'Version %s'",
-    "release": "git push; git push --tags; gulp gh-pages"
+    "test": "npm run jscs; npm run hint; gulp; mocha-phantomjs test/runner.html",
+    "bump": "npm version -m 'Version %s'"
   },
   "directories": {
     "src": "src",
