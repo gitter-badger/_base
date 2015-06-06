@@ -62,6 +62,10 @@ Run [mocha][mocha-url] tests.
 npm test
 ```
 
+## Contributing
+
+Anyone and everyone is welcome to [contribute][pulls-url].
+
 ## License
 
 - Third-party libraries, licensed under their respective licenses.
@@ -71,6 +75,7 @@ npm test
 [repo-url]: https://github.com/bymathias/_base
 [home-url]: https://bymathias.github.io/_base
 [license-url]: https://raw.githubusercontent.com/bymathias/_base/master/LICENSE
+[pulls-url]: https://github.com/bymathias/_base/pulls
 
 [release-badge]: https://img.shields.io/github/release/bymathias/_base.svg?style=flat-square
 [release-url]: https://github.com/bymathias/_base/releases
