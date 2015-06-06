@@ -43,8 +43,9 @@ Start hacking away, available commands.
 #    --homepage      Production homepage (pkg.homepage)
 #    --dest <DIR>    Overrides destination directory
 
-# Default task
 gulp
+gulp watch
+gulp bundle
 
 # List all --tasks
 gulp -T
