@@ -9,7 +9,7 @@
 
 [Test][home-url]
 
-[![Build Gif][build-gif-url]]
+![Build Gif][build-gif-url]
 
 ## Requirements
 
