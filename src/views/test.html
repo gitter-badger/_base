@@ -1,12 +1,121 @@
 <!doctype html>
-<html lang="en">
+<html class="no-js" lang="@@lang">
     <head>
+        <!-- Document settings -->
         <meta charset="utf-8">
-        <title>Test | @@title</title>
+
+        <!-- IE Use latest rendering engines -->
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <!-- Page meta -->
+        <title>Home | @@title</title>
+        <meta name="description" content="@@description">
+
+        <!-- Mobile viewport optimization -->
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Mobile IE ClearType -->
+        <meta http-equiv="cleartype" content="on">
+
+        <!--
+             Google webmaster
+             https://support.google.com/webmasters/answer/35659?hl=en
+        -->
+        <meta name="google-site-verification" content="@@google.verification">
+
+        <!--
+             Facebook Insight verification
+             https://developers.facebook.com/docs/platforminsights/domains
+        -->
+        <meta property="fb:admins" content="@@facebook.admins">
+        <meta property="fb:app_id" content="@@facebook.app_id">
+
+        <!--
+             Open Graph
+             https://developers.facebook.com/docs/sharing/best-practices#tags
+        -->
+        <meta property="og:site_name" content="@@title">
+
+        <!-- <meta property="og:type" content="article"> -->
+        <!-- <meta property="og:title" content=""> -->
+        <!-- <meta property="og:description" content=""> -->
+        <!-- <meta property="og:image" content=""> -->
+        <!-- <meta property="og:url" content=""> -->
+
+        <!--
+             Twitter cards
+             https://dev.twitter.com/cards/overview
+        -->
+        <meta name="twitter:site" content="@@twitter.user">
+
+        <!-- <meta name="twitter:card" content="summary"> -->
+        <!-- <meta name="twitter:title" content=""> -->
+        <!-- <meta name="twitter:description" content=""> -->
+        <!-- <meta name="twitter:image" content=""> -->
+        <!-- <meta name="twitter:url" content=""> -->
+
+        <!--
+             IE9+ Pinned site
+             https://msdn.microsoft.com/en-us/library/gg131029.aspx
+        -->
+        <meta name="application-name" content="@@title">
+        <meta name="msapplication-tooltip" content="@@description">
+        <!-- IE11+ see browserconfig.xml  -->
+
+        <!-- Chrome mobile -->
+        <meta name="mobile-web-app-capable" content="yes">
+
+        <!-- Apple icons -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="apple-mobile-web-app-title" content="@@title">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <!-- Place favicon.ico in the root directory -->
+
+        <!-- CSS & JS -->
+        <!-- bundle:css assets/css/bundle.@@version@@min.css -->
+        <link rel="stylesheet" href="assets/css/normalize@@min.css">
+        <link rel="stylesheet" href="assets/css/main@@min.css">
+        <!-- /bundle-->
+        <script src="assets/js/libs/modernizr@@min.js"></script>
+
+        <!-- Open search -->
+        <!-- <link rel="search" type="application/opensearchdescription+xml" title="Search @@title" href="/opensearch.xml"> -->
+
+        <!-- Sitemap  -->
+        <!-- <link rel="sitemap" type="application/xml" title="@@title Sitemap" href="/sitemap.xml"> -->
     </head>
-    <body>
+    <body class="test">
 
-        <p>Lorem Ipsum...</p>
 
+        <div class="container">
+
+            <p>Lorem Ipsum..</p>
+
+        </div><!-- ./.container -->
+
+
+        <!-- JS -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/@@vJQ/jquery@min.js"></script>
+        <script>window.jQuery || document.write('<script src="assets/js/libs/jquery@@min.js"><\/script>')</script>
+        <!-- bundle:js assets/js/bundle.@@version@@min.js -->
+        <script src="assets/js/main@@min.js"></script>
+        <!-- /bundle -->
+
+        <!-- Google Analytics -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','@@google.analytic_key','auto');
+            // ga('set', 'anonymizeIp', true);
+            ga('send','pageview');
+        </script>
     </body>
 </html>
