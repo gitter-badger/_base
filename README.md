@@ -64,7 +64,8 @@ npm test
 
 ## Contributing
 
-Anyone and everyone is welcome to [contribute][pulls-url]. For bugs and feature requests, please create an [issue][issues-url].
+- Anyone and everyone is welcome to [contribute][pulls-url].
+- For bugs and feature requests, please create an [issue][issues-url].
 
 ## License
 
