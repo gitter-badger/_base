@@ -35,12 +35,16 @@ bower install
 Start hacking away, available commands.
 
 ```sh
-# gulp [ <task> [ --env production ] [ --url production ] [ --dest <dest_dir> ] ]
+# gulp <task> [options]
+#
+# Options:
+# 
+#    --production    Minify CSS, JS, HTML
+#    --homepage      Production homepage (pkg.homepage)
+#    --dest <DIR>    Overrides destination directory
 
-gulp watch
-
+# Default task
 gulp
-gulp bundle
 
 # List all --tasks
 gulp -T

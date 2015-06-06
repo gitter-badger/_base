@@ -19,11 +19,12 @@ var reload      = browserSync.reload;
 
 var pkg  = require('./package');
 var dirs = pkg.directories;
-// Overrides dest using `--dest DIR`
+
+// Overrides dest using `--dest <DIR>`
 dirs.dest = gp.util.env.dest || dirs.dest;
 
-// Optimize for production using `--env production`
-var debug = (process.env.NODE_ENV || gp.util.env.env) !== 'production';
+// Optimize for production using `--production`
+var debug = (process.env.NODE_ENV !== 'production') && (typeof gp.util.env.production === 'undefined');
 
 /**
  * ===============================================================
@@ -343,7 +344,7 @@ gulp.task('license', function() {
 
 gulp.task('htdocs', function() {
     var localUrl = cf.browserSync.proxy || 'http://localhost:' + cf.browserSync.port;
-    var baseUrl  = (gp.util.env.url !== 'production') ? localUrl : pkg.homepage;
+    var baseUrl  = gp.util.env.homepage ? pkg.homepage : localUrl;
 
     var fileFilter = gp.filter(['**/*.{html,php,hbs,xml,txt}', 'CNAME']);
     var htmlFilter = gp.filter('**/*.html');
@@ -487,12 +488,3 @@ gulp.task('gh-pages', function(done) {
         }
     }, done);
 });
-
-// gulp.task('test', function() {
-//     var exec = require('child_process').exec;
-
-//     exec('ls', function(err, stdout) {
-//         if (err) { throw err; }
-//         log('Test: ' + stdout);
-//     });
-// });
