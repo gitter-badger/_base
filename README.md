@@ -49,8 +49,9 @@ gulp bundle
 
 # List all --tasks
 gulp -T
+```
 
-
+```sh
 # Bump version
 # npm run bump [ patch|minor|major|prerelease|prepatch|preminor|premajor|<newversion> ]
 npm run bump patch
@@ -69,8 +70,7 @@ npm test
 
 ## Contributing
 
-- Anyone and everyone is welcome to [contribute][pulls-url].
-- For bugs and feature requests, please create an [issue][issues-url].
+Anyone and everyone is welcome to [contribute][pulls-url].
 
 ## License
 
@@ -82,7 +82,6 @@ npm test
 [home-url]: https://bymathias.github.io/_base
 [license-url]: https://raw.githubusercontent.com/bymathias/_base/master/LICENSE
 [pulls-url]: https://github.com/bymathias/_base/pulls
-[issues-url]: https://github.com/bymathias/_base/issues
 
 [nodejs-url]: https://nodejs.org
 [nvm-url]: https://github.com/creationix/nvm
