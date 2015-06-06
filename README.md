@@ -64,7 +64,7 @@ npm test
 
 ## Contributing
 
-Anyone and everyone is welcome to [contribute][pulls-url].
+Anyone and everyone is welcome to [contribute][pulls-url]. For bugs and feature requests, please create an [issue][issues-url].
 
 ## License
 
@@ -76,6 +76,13 @@ Anyone and everyone is welcome to [contribute][pulls-url].
 [home-url]: https://bymathias.github.io/_base
 [license-url]: https://raw.githubusercontent.com/bymathias/_base/master/LICENSE
 [pulls-url]: https://github.com/bymathias/_base/pulls
+[issues-url]: https://github.com/bymathias/_base/issues
+
+[nodejs-url]: https://nodejs.org
+[nvm-url]: https://github.com/creationix/nvm
+[gulp-url]: http://gulpjs.com
+[bower-url]: http://bower.io
+[mocha-url]: http://mochajs.org
 
 [release-badge]: https://img.shields.io/github/release/bymathias/_base.svg?style=flat-square
 [release-url]: https://github.com/bymathias/_base/releases
@@ -88,9 +95,3 @@ Anyone and everyone is welcome to [contribute][pulls-url].
 
 [codacy-badge]: https://img.shields.io/codacy/e6879d52d61f43939f351bcb6617e8e4.svg?style=flat-square
 [codacy-url]: https://www.codacy.com/app/bymathias/_base
-
-[nodejs-url]: https://nodejs.org
-[nvm-url]: https://github.com/creationix/nvm
-[gulp-url]: http://gulpjs.com
-[bower-url]: http://bower.io
-[mocha-url]: http://mochajs.org
