@@ -55,9 +55,6 @@ gulp -T
 # Bump version
 # npm run bump [ patch|minor|major|prerelease|prepatch|preminor|premajor|<newversion> ]
 npm run bump patch
-
-# Release and deploy (gh-pages)
-npm run release
 ```
 
 ## Test
