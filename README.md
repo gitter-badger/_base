@@ -9,6 +9,8 @@
 
 [Test][home-url]
 
+[![Build Gif][build-gif-url]]
+
 ## Requirements
 
 - Install [node.js][nodejs-url]. (see [nvm][nvm-url])
@@ -79,6 +81,8 @@ Anyone and everyone is welcome to [contribute][pulls-url].
 [home-url]: https://bymathias.github.io/_base
 [license-url]: https://raw.githubusercontent.com/bymathias/_base/master/LICENSE
 [pulls-url]: https://github.com/bymathias/_base/pulls
+
+[build-gif-url]: https://s3.amazonaws.com/f.cl.ly/items/2E0q1s333B0Y3B18383d/gulp-build.gif
 
 [nodejs-url]: https://nodejs.org
 [nvm-url]: https://github.com/creationix/nvm

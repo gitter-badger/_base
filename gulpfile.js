@@ -23,7 +23,7 @@ var dirs = pkg.directories;
 // Overrides dest using `--dest <DIR>`
 dirs.dest = gp.util.env.dest || dirs.dest;
 
-// Optimize for production using `--production`
+// Optimize for production using `NODE_ENV=production` or `--production`
 var debug = (process.env.NODE_ENV !== 'production') && (typeof gp.util.env.production === 'undefined');
 
 /**
@@ -179,6 +179,8 @@ var today = gp.util.date(new Date(), 'yyyy-mm-dd');
 var chalk = gp.util.colors;
 var noop  = gp.util.noop;
 var log   = gp.util.log;
+
+// Colorful log
 
 log.file = function(name, file, status, err) {
     return log(
