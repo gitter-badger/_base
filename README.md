@@ -38,13 +38,6 @@ Start hacking away, to see the available [gulp][gulp-url] tasks.
 gulp ?
 ```
 
-Bump version
-
-```sh
-# npm run bump [ patch|minor|major|prerelease|prepatch|preminor|premajor|<newversion> ]
-npm run bump patch
-```
-
 ## Test
 
 Run [mocha][mocha-url] tests.
