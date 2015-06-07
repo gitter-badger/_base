@@ -11,6 +11,7 @@
 ## Requirements
 
 - [Node.js][nodejs-url] and [npm][npm-url]. (see [nvm][nvm-url])
+- [Editorconfig][editorconfig-url].
 
 ## Installation
 
@@ -75,6 +76,7 @@ Anyone and everyone is welcome to [contribute][pulls-url].
 [nodejs-url]: https://nodejs.org
 [npm-url]: https://www.npmjs.com
 [nvm-url]: https://github.com/creationix/nvm
+[editorconfig-url]: http://editorconfig.org "Help make the world a better place"
 
 [gulp-url]: http://gulpjs.com
 [bower-url]: http://bower.io
