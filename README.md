@@ -1,5 +1,3 @@
-# [_base][repo-url]
-
 [![Release Version][release-badge]][release-url]
 [![Tag Version][tag-badge]][tag-url]
 [![David devDependencies Status][david-devDeps-badge]][david-devDeps-url]
@@ -58,7 +56,6 @@ Anyone and everyone is welcome to [contribute][pulls-url].
 
 [![forthebadge](http://forthebadge.com/images/badges/built-with-vim.svg)](http://forthebadge.com)
 
-[repo-url]: https://github.com/bymathias/_base
 [home-url]: https://bymathias.github.io/_base
 [license-url]: https://raw.githubusercontent.com/bymathias/_base/master/LICENSE
 [pulls-url]: https://github.com/bymathias/_base/pulls
