@@ -1,6 +1,6 @@
 {
   "name": "_base",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Minimal front-end framework/boilerplate and build process.",
   "license": "MIT",
   "private": true,
