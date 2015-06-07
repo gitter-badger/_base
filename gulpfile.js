@@ -338,7 +338,7 @@ gulp.task('components', function() {
 
 gulp.task('license', function() {
     return gulp
-        .src('LICENSE.md', { cwd: '.' })
+        .src('LICENSE', { cwd: '.' })
         .pipe(gp.rename('license.txt'))
         .pipe(gulp.dest(dirs.dest));
 });
@@ -508,7 +508,7 @@ gulp.task('?', function() {
     log('');
     log('       ' + chalk.red('?') + '             Display this message');
     log('');
-    log('       ' + chalk.red('styles') + '        Compile CSS with Myth');
+    log('       ' + chalk.red('styles') + '        Compile CSS files');
     log('       ' + chalk.red('scripts') + '       Concat JS files');
     log('       ' + chalk.red('images') + '        Copy images and svg');
     log('       ' + chalk.red('fonts') + '         Copy fonts');
