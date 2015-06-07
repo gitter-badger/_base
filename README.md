@@ -15,23 +15,20 @@
 
 ## Installation
 
-Install [gulp][gulp-url] task runner and [bower][bower-url] package manager globally.
-
 ```sh
+# Install gulp and bower package globally.
 npm install -g gulp bower
-```
 
-Clone the project and install local dependencies. 
-
-```sh
+# Clone the project using Git.
 git clone https://bymathias@github.com/bymathias/_base.git project
 cd project
 
+# Install local dependencies. 
 npm install
 bower install
 ```
 
-OR one-line install
+OR
 
 ```sh
 bash <(curl -s https://raw.githubusercontent.com/bymathias/_base/install/init.sh)>
@@ -39,15 +36,11 @@ bash <(curl -s https://raw.githubusercontent.com/bymathias/_base/install/init.sh
 
 ## Usage
 
-Start hacking away, to see the available [gulp][gulp-url] tasks.
-
 ```sh
 gulp ?
 ```
 
 ## Test
-
-Run [mocha][mocha-url] tests.
 
 ```sh
 npm test
@@ -70,9 +63,6 @@ Anyone and everyone is welcome to [contribute][pulls-url].
 
 [nodejs-url]: https://nodejs.org
 [nvm-url]: https://github.com/creationix/nvm
-[gulp-url]: http://gulpjs.com
-[bower-url]: http://bower.io
-[mocha-url]: http://mochajs.org
 
 [release-badge]: https://img.shields.io/github/release/bymathias/_base.svg?style=flat-square
 [release-url]: https://github.com/bymathias/_base/releases
