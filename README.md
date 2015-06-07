@@ -10,24 +10,31 @@
 
 ## Requirements
 
-- [Node.js][nodejs-url]. (see [nvm][nvm-url])
+- [Node.js][nodejs-url] and [npm][npm-url]. (see [nvm][nvm-url])
 
 ## Installation
 
-```sh
-# Install gulp and bower package globally.
-npm install -g gulp bower
+Install gulp and bower package globally.
 
-# Clone the project using Git.
+```sh
+npm install -g gulp bower
+```
+
+Get the repository
+
+```sh
 git clone https://bymathias@github.com/bymathias/_base.git project
 cd project
+```
 
-# Install local dependencies. 
+Install local dependencies. 
+
+```sh
 npm install
 bower install
 ```
 
-OR
+## Installation (one-line)
 
 ```sh
 bash <(curl -s https://raw.githubusercontent.com/bymathias/_base/install/init.sh)>
@@ -61,6 +68,7 @@ Anyone and everyone is welcome to [contribute][pulls-url].
 [pulls-url]: https://github.com/bymathias/_base/pulls
 
 [nodejs-url]: https://nodejs.org
+[npm-url]: https://www.npmjs.com
 [nvm-url]: https://github.com/creationix/nvm
 
 [release-badge]: https://img.shields.io/github/release/bymathias/_base.svg?style=flat-square
