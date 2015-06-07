@@ -56,22 +56,16 @@ gulp ?
 
 ## Test
 
-Run [mocha-phantomjs][mocha-phantomjs-url] tests.
+Lint config/test and run [mocha-phantomjs][mocha-phantomjs-url] tests.
 
 ```sh
 npm test
 ```
 
-## Contributing
-
-Anyone and everyone is welcome to [contribute][pulls-url].
-
 ## License
 
 - Third-party libraries, licensed under their respective licenses.
 - Custom bits, licensed under the [MIT License][license-url].
-
-[![forthebadge](http://forthebadge.com/images/badges/built-with-vim.svg)](http://forthebadge.com)
 
 [home-url]: https://bymathias.github.io/_base
 [license-url]: https://raw.githubusercontent.com/bymathias/_base/master/LICENSE
