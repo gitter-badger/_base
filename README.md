@@ -48,11 +48,15 @@ bash <(curl -s https://raw.githubusercontent.com/bymathias/_base/install/init.sh
 
 ## Usage
 
+See available [gulp][gulp-url] tasks.
+
 ```sh
 gulp ?
 ```
 
 ## Test
+
+Run [mocha-phantomjs][mocha-phantomjs-url] tests.
 
 ```sh
 npm test
@@ -80,6 +84,7 @@ Anyone and everyone is welcome to [contribute][pulls-url].
 
 [gulp-url]: http://gulpjs.com
 [bower-url]: http://bower.io
+[mocha-phantomjs-url]: http://metaskills.net/mocha-phantomjs
 
 [release-badge]: https://img.shields.io/github/release/bymathias/_base.svg?style=flat-square
 [release-url]: https://github.com/bymathias/_base/releases
