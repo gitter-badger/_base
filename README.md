@@ -32,14 +32,15 @@ bower install
 
 ## Usage
 
-Start hacking away, available commands.
+Start hacking away, to see the available [gulp][gulp-url] tasks.
 
 ```sh
 gulp ?
 ```
 
+Bump version
+
 ```sh
-# Bump version
 # npm run bump [ patch|minor|major|prerelease|prepatch|preminor|premajor|<newversion> ]
 npm run bump patch
 ```
