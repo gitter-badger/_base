@@ -14,20 +14,25 @@
 
 ## Installation
 
-Install gulp and bower package globally.
+Install [gulp][gulp-url] task runner and [bower][bower-url] package manager globally.
 
 ```sh
 npm install -g gulp bower
 ```
 
-Get the repository
+Get the repository.
 
 ```sh
+# Using Git
 git clone https://bymathias@github.com/bymathias/_base.git project
 cd project
+
+# Or using Curl
+cd project
+curl -#L https://github.com/bymathias/_base/tarball/master | tar -xzv --strip-components 1
 ```
 
-Install local dependencies. 
+Install local [npm][npm-url] and [bower][bower-url] dependencies. 
 
 ```sh
 npm install
@@ -70,6 +75,9 @@ Anyone and everyone is welcome to [contribute][pulls-url].
 [nodejs-url]: https://nodejs.org
 [npm-url]: https://www.npmjs.com
 [nvm-url]: https://github.com/creationix/nvm
+
+[gulp-url]: http://gulpjs.com
+[bower-url]: http://bower.io
 
 [release-badge]: https://img.shields.io/github/release/bymathias/_base.svg?style=flat-square
 [release-url]: https://github.com/bymathias/_base/releases
