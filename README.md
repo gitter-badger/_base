@@ -55,6 +55,7 @@ Anyone and everyone is welcome to [contribute][pulls-url].
 - Third-party libraries, licensed under their respective licenses.
 - Custom bits, licensed under the [MIT License][license-url].
 
+[![forthebadge](http://forthebadge.com/images/badges/built-with-vim.svg)](http://forthebadge.com)
 
 [repo-url]: https://github.com/bymathias/_base
 [home-url]: https://bymathias.github.io/_base
