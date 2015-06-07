@@ -28,6 +28,9 @@ cd project
 
 npm install
 bower install
+
+# or
+bash <(curl -s https://raw.githubusercontent.com/bymathias/_base/install/init.sh)>
 ```
 
 ## Usage
