@@ -1,4 +1,5 @@
-/* _base Gulpfile | github.com/bymathias/_base */
+/*! _base Gulpfile | github.com/bymathias/_base */
+
 
 'use strict';
 
@@ -27,9 +28,9 @@ dirs.dest = gp.util.env.dest || dirs.dest;
 var debug = (process.env.NODE_ENV !== 'production') && (typeof gp.util.env.production === 'undefined');
 
 /**
- * ===============================================================
+ * =======================================
  *  CONFIGURATION
- * ===============================================================
+ * =======================================
  */
 
 var cf = {
@@ -170,9 +171,9 @@ var cf = {
 };
 
 /**
- * ===============================================================
+ * =======================================
  *  HELPERS
- * ===============================================================
+ * =======================================
  */
 
 var today = gp.util.date(new Date(), 'yyyy-mm-dd');
@@ -245,9 +246,9 @@ var titleCase = function(str) {
 };
 
 /**
- * ===============================================================
+ * =======================================
  *  TASKS Development
- * ===============================================================
+ * =======================================
  */
 
 // Compile CSS
@@ -472,9 +473,9 @@ gulp.task('bundle', ['default'], function() {
 });
 
 /**
- * ===============================================================
+ * =======================================
  *  TASKS Deployment
- * ===============================================================
+ * =======================================
  */
 
 // GH-PAGES Task
@@ -489,4 +490,44 @@ gulp.task('gh-pages', function(done) {
             log(msg);
         }
     }, done);
+});
+
+/**
+ * =======================================
+ *  HELP
+ * =======================================
+ */
+
+gulp.task('?', function() {
+    log('');
+    log('  ' + chalk.underline('Usage:'));
+    log('');
+    log('    gulp ' + chalk.red('<task>') + ' ' + chalk.yellow('[options..]') + '');
+    log('');
+    log('    Tasks:');
+    log('');
+    log('       ' + chalk.red('?') + '             Display this message');
+    log('');
+    log('       ' + chalk.red('styles') + '        Compile CSS with Myth');
+    log('       ' + chalk.red('scripts') + '       Concat JS files');
+    log('       ' + chalk.red('images') + '        Copy images and svg');
+    log('       ' + chalk.red('fonts') + '         Copy fonts');
+    log('       ' + chalk.red('components') + '    Copy components');
+    log('       ' + chalk.red('license') + '       Copy license and add .txt extension');
+    log('       ' + chalk.red('htdocs') + '        Compile views and files');
+    log('       ' + chalk.red('clean') + '         Clean built files');
+    log('       ' + chalk.red('serve') + '         Launches the BrowserSync server');
+    log('');
+    log('       ' + chalk.red('default') + '       Build assets and root files to \'' + chalk.cyan(dirs.dest) + '\'');
+    log('       ' + chalk.red('watch') + '         Watch CSS, JS, views and files for changes');
+    log('       ' + chalk.red('bundle') + '        Bundle CSS and JS files');
+    log('');
+    log('       ' + chalk.red('gh-pages') + '      Deploy \'' + chalk.cyan(dirs.dest) + '\' directory to Github gh-pages');
+    log('');
+    log('    Options:');
+    log('');
+    log('       ' + chalk.yellow('--production') + '    Minify CSS, JS, HTML');
+    log('       ' + chalk.yellow('--homepage') + '      Production homepage \'' + chalk.cyan(pkg.homepage) + '\'');
+    log('       ' + chalk.yellow('--dest <DIR>') + '    Overrides destination directory \'' + chalk.cyan(dirs.dest) + '\'');
+    log('');
 });
