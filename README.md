@@ -1,6 +1,7 @@
 # [_base][repo-url]
 
 [![Release Version][release-badge]][release-url]
+[![Tag Version][tag-badge]][tag-url]
 [![David devDependencies Status][david-devDeps-badge]][david-devDeps-url]
 [![Travis Status][travis-badge]][travis-url]
 [![Codacy Badge][codacy-badge]][codacy-url]
@@ -67,6 +68,9 @@ Anyone and everyone is welcome to [contribute][pulls-url].
 
 [release-badge]: https://img.shields.io/github/release/bymathias/_base.svg?style=flat-square
 [release-url]: https://github.com/bymathias/_base/releases
+
+[tag-badge]: https://img.shields.io/github/tag/bymathias/_base.svg?style=flat-square
+[tag-url]: https://github.com/bymathias/_base/tags
 
 [david-devDeps-badge]: http://img.shields.io/david/dev/bymathias/_base.svg?style=flat-square
 [david-devDeps-url]: https://david-dm.org/bymathias/_base#info=devDependencies
