@@ -1,18 +1,18 @@
 {
-  "name": "_base",
+  "name": "base",
   "version": "1.0.1",
   "description": "Minimal front-end framework/boilerplate and build process.",
   "license": "MIT",
   "private": true,
   "author": "Mathias Brouilly (http://mathias.brouilly.fr)",
   "contributor": [],
-  "homepage": "http://bymathias.github.io/_base",
+  "homepage": "http://bymathias.github.io/base",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bymathias/_base"
+    "url": "https://github.com/bymathias/base"
   },
   "bugs": {
-    "url": "https://github.com/bymathias/_base/issues"
+    "url": "https://github.com/bymathias/base/issues"
   },
   "dependencies": {},
   "devDependencies": {
