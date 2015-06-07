@@ -1,6 +1,6 @@
-/** 2015-06-04
+/** 2015-06-07
  * _Base
- * @version v0.1.0
+ * @version v1.0.1
  * @author Mathias Brouilly (http://mathias.brouilly.fr)
  * @license MIT
  * Copyrights (c) 2015 */
