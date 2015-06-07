@@ -11,7 +11,7 @@
 
 ## Requirements
 
-Install [node.js][nodejs-url]. (see [nvm][nvm-url])
+- [Node.js][nodejs-url]. (see [nvm][nvm-url])
 
 ## Installation
 
@@ -31,7 +31,7 @@ npm install
 bower install
 ```
 
-or
+OR one-line install
 
 ```sh
 bash <(curl -s https://raw.githubusercontent.com/bymathias/_base/install/init.sh)>
