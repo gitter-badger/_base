@@ -11,16 +11,17 @@
 
 ## Requirements
 
-- Install [node.js][nodejs-url]. (see [nvm][nvm-url])
-- Install [gulp][gulp-url] task runner and [bower][bower-url] package manager globally.
+Install [node.js][nodejs-url]. (see [nvm][nvm-url])
+
+## Installation
+
+Install [gulp][gulp-url] task runner and [bower][bower-url] package manager globally.
 
 ```sh
 npm install -g gulp bower
 ```
 
-## Installation
-
-Clone the project and install dependencies. 
+Clone the project and install local dependencies. 
 
 ```sh
 git clone https://bymathias@github.com/bymathias/_base.git project
@@ -28,8 +29,11 @@ cd project
 
 npm install
 bower install
+```
 
-# or
+or
+
+```sh
 bash <(curl -s https://raw.githubusercontent.com/bymathias/_base/install/init.sh)>
 ```
 
